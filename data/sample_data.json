@@ -1,0 +1,81 @@
+{
+  "slots": [
+    "09:00",
+    "11:00",
+    "14:00"
+  ],
+  "leaks": [
+    {
+      "Leak ID": "L-101",
+      "Location": "North clinic",
+      "Severity": "Critical",
+      "Estimated leak rate": 7.5,
+      "Report age (hours)": 2,
+      "Critical service affected": true,
+      "Required skill": "plumbing",
+      "Allowed slots": [
+        "09:00",
+        "11:00"
+      ]
+    },
+    {
+      "Leak ID": "L-102",
+      "Location": "Market street",
+      "Severity": "High",
+      "Estimated leak rate": 4.0,
+      "Report age (hours)": 8,
+      "Critical service affected": false,
+      "Required skill": "plumbing",
+      "Allowed slots": [
+        "09:00",
+        "14:00"
+      ]
+    },
+    {
+      "Leak ID": "L-103",
+      "Location": "East block",
+      "Severity": "Medium",
+      "Estimated leak rate": 2.0,
+      "Report age (hours)": 12,
+      "Critical service affected": false,
+      "Required skill": "survey",
+      "Allowed slots": [
+        "11:00",
+        "14:00"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "Team ID": "T-1",
+      "Skills": [
+        "plumbing",
+        "survey"
+      ],
+      "Available slots": [
+        "09:00",
+        "11:00"
+      ]
+    },
+    {
+      "Team ID": "T-2",
+      "Skills": [
+        "plumbing"
+      ],
+      "Available slots": [
+        "09:00",
+        "14:00"
+      ]
+    },
+    {
+      "Team ID": "T-3",
+      "Skills": [
+        "survey"
+      ],
+      "Available slots": [
+        "11:00",
+        "14:00"
+      ]
+    }
+  ]
+}
