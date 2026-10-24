@@ -11,7 +11,7 @@ from src.planner import (
 )
 
 st.set_page_config(page_title="Water Leak Inspection Planner", page_icon="💧", layout="wide")
-st.title("💧 Water Leak Inspection Planner")
+st.title("Water Leak Inspection Planner")
 st.caption("Synthetic-data prototype | SDG 6: Clean Water and Sanitation | SDG 11: Sustainable Cities and Communities")
 
 st.info("Decision-support demonstration only. Priority scores and route costs are illustrative, not measured water savings or real-world travel times.")
